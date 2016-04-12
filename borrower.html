@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Borrower Management</title>
+        <link rel="stylesheet" 	type="text/css" href="style.css">
+        <script src="jquery-1.7.1.min.js" type="text/javascript"></script>
+        <script src="script.js" type="text/javascript"></script>
+    </head>
+    <body>        <center>
+        <h1>Add Borrower</h1>
+        <form id="form2" method="post" action="borrower.php">
+		<div class="form-row">
+            <span class="label"> Card No: </span> <input type="text" name="brocardno" id="brocardno" required>
+        </div>
+                <br>
+                <br><div class="form-row">
+            <span class="label"> SSN : </span> <input type="text" name="brossn" id="brossn" required>
+        </div>
+                <br>
+                <br>
+        <div class="form-row">
+			<span class="label"> First Name : </span> <input type="text" name="brofname" id="brofname" required>
+		</div>
+                <br>
+                <br>
+		<div class="form-row">
+                    <span class="label"> Last Name : </span> <input type="text" name="brolname" id="brolname" required>
+		</div>
+                <br>
+                <br>
+		<div class="form-row">
+                    <span class="label"> Address : </span> <input type="text" name="broaddress" id="broaddress" required>
+		</div>
+                <br>
+                <br>
+                <div class="form-row">
+            <span class="label"> City : </span> <input type="text" name="brocity" id="bro" required>
+        </div>
+                <br>
+                <br>
+                <div class="form-row">
+            <span class="label"> State : </span> <input type="text" name="brostate" id="brostate" required>
+        </div>
+                <br>
+                <br>
+
+                <div class="form-row">
+                    <span class="label"> Phone No (Optional) : </span> <input type="text" name="brono" id="brono" required>
+		</div>
+                <br>
+                <br>
+		<div class="form-row">
+                    <input class="submit" type="submit" value="ADD" id="bro">
+		</div>
+	</form>        </center>
+    </body>
+</html>

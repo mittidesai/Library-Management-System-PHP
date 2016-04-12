@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 31, 2014, 2:38:02 PM
+    Author     : Jatan
+*/
+a
+{
+    text-decoration: none;
+    color:black;
+}
+.button
+{
+    align-items: flex-start;
+    text-align: center;
+    cursor: pointer;
+    color: buttontext;
+    padding: 2px 6px 3px;
+    border: 2px outset buttonface;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    background-color: buttonface;
+    box-sizing: border-box;
+    margin: 0em;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    //text-align: start;
+}
+table
+{
+    text-align: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td,th
+{
+    text-align: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+    font-size: 20px;
+}
